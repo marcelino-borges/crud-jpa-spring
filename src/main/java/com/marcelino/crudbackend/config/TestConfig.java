@@ -11,7 +11,7 @@ import com.marcelino.crudbackend.entities.User;
 import com.marcelino.crudbackend.repositories.UserRepository;
 
 @Configuration
-@Profile("test") //Parameter must match the value set to spring.profiles.active, on application.properties
+@Profile("test") //Parametro precisa bater com o valor setado para "spring.profiles.active", no application.properties
 public class TestConfig implements CommandLineRunner {
 	
 	@Autowired //injeção de dependência automática
